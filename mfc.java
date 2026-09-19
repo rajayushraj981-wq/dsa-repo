@@ -1,5 +1,5 @@
 class Solution {
-    public int whileLoop(int d) {
+    void whileLoop(int d) {
         int sum = 0;
         int i = 1;
 
@@ -7,7 +7,9 @@ class Solution {
             sum += (i - 1) * 10 + d;
             i++;
         }
-
-        return sum;
+        System.out.println(sum);
+    }
+    void main(){
+        whileLoop(5);
     }
 }
